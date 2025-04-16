@@ -6,15 +6,14 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
-        "fruitcake/laravel-cors": "^2.0",
+        "fruitcake/laravel-cors": "2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
         "laravel/socialite": "^5.14",
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.4",
-        "phpmailer/phpmailer": "^6.9",
-        "phpviet/laravel-omnipay": "^1.1"
+        "phpmailer/phpmailer": "^6.9"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -62,6 +61,9 @@
         "sort-packages": true,
         "allow-plugins": {
             "php-http/discovery": false
+        },
+        "platform": {
+            "php": "8.0"
         }
     },
     "minimum-stability": "dev",
